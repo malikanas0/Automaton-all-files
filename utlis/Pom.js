@@ -62,13 +62,14 @@ class TestCases {
   }
 
   checkloginandlogout() {
-    /*cy.get('a[href="#"]').eq(2).click();
+    cy.get('a[href="#"]').eq(2).click();
     cy.wait(1000);
     cy.get('[type="text"]').eq(3).type("Alitest@gmail.com");
     cy.get('[type="password"]').eq(1).type("Password@123");
     cy.get('[class="btn btn-primary"]').eq(2).click();
     cy.wait(4000);
-    cy.get('[class="nav-link"]').eq(5).click();*/
+    cy.get('[class="nav-link"]').eq(5).click();
+    
     cy.get('#loginusername').click().type('Alitest@gmail.com')
     cy.get('#loginpassword').click().type('Password@123')
     cy.get('input[type="button"]').click()
