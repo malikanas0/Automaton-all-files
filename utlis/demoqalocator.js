@@ -10,3 +10,12 @@ export const demoqaverifyaddnewuser ={
     adduserdepartment: '#department',
     clickonsubmitbtn: '#submit'
 }
+
+export const verifyeditfunctionality ={
+    navigatetoelement: '[class="card mt-4 top-card"]',
+    clickonwebtales: '#item-3',
+    clickonsecroweditbox: '#edit-record-2',
+    clearfirstname:'#firstName',
+    clearlastname:'#lastName',
+    clickonsubmitbtn: '#submit',
+}
