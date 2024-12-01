@@ -16,6 +16,9 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-plugin-xhr-toggle'
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+    });
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

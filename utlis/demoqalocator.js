@@ -19,3 +19,29 @@ export const verifyeditfunctionality ={
     clearlastname:'#lastName',
     clickonsubmitbtn: '#submit',
 }
+
+export const verifybrokenimage ={
+    navigatetoelement: '[class="card mt-4 top-card"]',
+    clickonbrokenimages: '#item-6',
+    clickonimage: '[src="/images/Toolsqa_1.jpg"]',
+}
+export const verifythesubmitform ={
+    naviagtetoform:'[class="card mt-4 top-card"]',
+    clickonpracticefrom: '[class="element-list collapse show"]',  
+    userfirstname: '#firstName',
+    userlastname: '#lastName',
+    userEmail: '#userEmail',
+    selectgender: '[for="gender-radio-1"]',
+    usernumber: '#userNumber',
+    userdateofbirth: '#dateOfBirthInput',
+    clickonmonth: '[class="react-datepicker__month-select"]',
+    selectyear: '[class="react-datepicker__year-select"]',
+    selectdate: '[class="react-datepicker__day react-datepicker__day--015"]',
+    usersubject: '#subjectsContainer',
+    usercheckbox: '[for="hobbies-checkbox-2"]',
+    uploadpicture: '[type="file"]',
+    usercurrentaddress: '#currentAddress-wrapper',
+    selectuserstate: '[class=" css-tlfecz-indicatorContainer"]',
+    //selectusercity: '[class=" css-1hwfws3"]',
+    //clickonsubmitbtn: '#submit',
+}
