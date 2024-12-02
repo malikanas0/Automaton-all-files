@@ -1,4 +1,3 @@
-export const testCases = new TestCases()
 class TestCases {
   steps() {
     cy.contains("CATEGORIES").should("be.visible");
@@ -87,7 +86,7 @@ class TestCases {
     cy.scrollTo("center").wait(2000).scrollTo("top");
   }
 }
-
+export const testCases = new TestCases()
 
 
 

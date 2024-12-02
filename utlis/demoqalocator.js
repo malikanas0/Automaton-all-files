@@ -1,4 +1,3 @@
-
 export const demoqaverifyaddnewuser ={
     navigatetoelement: '[class="card mt-4 top-card"]',
     clickonwebtales: '#item-3',
