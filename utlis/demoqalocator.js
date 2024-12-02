@@ -1,3 +1,4 @@
+
 export const demoqaverifyaddnewuser ={
     navigatetoelement: '[class="card mt-4 top-card"]',
     clickonwebtales: '#item-3',
@@ -42,6 +43,7 @@ export const verifythesubmitform ={
     uploadpicture: '[type="file"]',
     usercurrentaddress: '#currentAddress-wrapper',
     selectuserstate: '[class=" css-tlfecz-indicatorContainer"]',
-    //selectusercity: '[class=" css-1hwfws3"]',
-    //clickonsubmitbtn: '#submit',
+    selectusercity: '[class=" css-1hwfws3"]',
+    clickonsubmitbtn: '#submit',
+    verifytheform: '#example-modal-sizes-title-lg',
 }

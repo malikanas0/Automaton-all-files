@@ -1,3 +1,4 @@
+export const testCases = new TestCases()
 class TestCases {
   steps() {
     cy.contains("CATEGORIES").should("be.visible");
@@ -87,5 +88,6 @@ class TestCases {
   }
 }
 
-export const testCases = new TestCases()
+
+
 
