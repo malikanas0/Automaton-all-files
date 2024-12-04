@@ -46,3 +46,19 @@ export const verifythesubmitform ={
     clickonsubmitbtn: '#submit',
     verifytheform: '#example-modal-sizes-title-lg',
 }
+export const verifyprogressbar ={
+    clickonwidget: '[class="card-body"]',
+    navigatetoprogressbar: '[class="element-list collapse show"]>[class="menu-list"]>[id="item-4"]',
+    clickonstartbtn: '#startStopButton'
+}
+export const verifytooltip ={
+    clickonwidget: '[class="card-body"]',
+    navigatetotooltip: '[class="element-list collapse show"]>[class="menu-list"]>[id="item-6"]',
+    hoveronbtn:'#toolTipButton',
+}
+export const verifydraganddrop ={
+    clickonwidget: '[class="card-body"]',
+    navigatetodraganddrop: '[class="element-list collapse show"]>[class="menu-list"]>[id="item-3"]',
+    clickondrag: '#draggable',
+    clickondrop:'#droppable',
+}
